@@ -1,7 +1,13 @@
 server:
-  port: 8082
+  port: 8083
   servlet:
-   context-path: /aggregate
+   context-path: /employee
+   
+spring:
+  security:
+    user:
+      name: employee
+      password: M4ster99
 eureka:
   client:
     serviceUrl:
