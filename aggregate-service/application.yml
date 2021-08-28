@@ -1,2 +1,10 @@
 server:
-  port: 8081
+  port: 8082
+  servlet:
+   context-path: /aggregate
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://discovery:M4ster99@localhost:8081/eureka}
+  instance:
+    preferIpAddress: true
