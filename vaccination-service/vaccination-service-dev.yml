@@ -1,0 +1,16 @@
+server:
+  port: 8084
+  servlet:
+   context-path: /vaccination
+   
+spring:
+  security:
+    user:
+      name: vaccination
+      password: M4ster99
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://discovery:M4ster99@localhost:8081/eureka}
+  instance:
+    preferIpAddress: true
