@@ -10,10 +10,10 @@ eureka:
     preferIpAddress: true
 microservices:
     employee-service:
-       url: http://localhost:8083/employee/{id}
+       url: http://EMPLOYEE-SERVICE/employee/{id}
        username: employee
        password: M4ster99
     vaccination-service:
-       url: http://localhost:8084/vaccination/{id}
+       url: http://VACCINATION-SERVICE/vaccination/{id}
        username: vaccination
        password: M4ster99
