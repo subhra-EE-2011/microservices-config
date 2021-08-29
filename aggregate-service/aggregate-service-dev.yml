@@ -17,3 +17,6 @@ microservices:
        url: http://VACCINATION-SERVICE/vaccination/id
        username: vaccination
        password: M4ster99
+feign:
+ hystrix:
+   enabled: true
