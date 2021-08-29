@@ -23,7 +23,5 @@ microservices:
        username: vaccination
        password: M4ster99
 feign:
- hystrix:
-   enabled: true
  circuitbreaker:
    enabled: true
